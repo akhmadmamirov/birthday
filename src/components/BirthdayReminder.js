@@ -3,7 +3,7 @@ import { collection, addDoc, deleteDoc, getDocs, query, where, updateDoc, doc} f
 import { db } from "../utils/firebase.utils.js";
 import { getAuth } from "firebase/auth";
 import { toast } from 'react-toastify';
-
+//Test comment by Akhmad
 const BirthdayReminder = () => {
   const [birthdays, setBirthdays] = useState([]);
   const [originalBirthdays, setOriginalBirthdays] = useState([]);

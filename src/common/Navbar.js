@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { getAuth, signOut, onAuthStateChanged } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-
+//Test comment by Akhmad in Navbar.js
 function Navbar() {
   const navigate = useNavigate();
   const auth = getAuth();
